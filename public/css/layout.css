@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 24, 2014, 5:25:21 AM
+    Author     : EBIT
+*/
+
+body
+{
+    margin: 0;
+    padding: 0 0 50px 0;
+    font-family: "Helvetica", "Arial";
+    font-size: 14px;
+    line-height: 18px;
+    cursor: default;
+}
+a
+{
+    color: #ef7c61;    
+}
+.container
+{
+    width: 960px;
+    position: relative;
+    margin: 0 auto;
+}
+.header h1, .header a
+{
+    display: inline-block;
+}
+.header h1
+{
+    margin: 0;
+    font-weight: normal;
+}
+
+.footer 
+{
+    position: absolute;
+    bottom: 0;
+}
+.content
+{
+    padding: 25px 0;
+}
+label, input, .error
+{
+    clear: both;
+    float: left;
+    margin: 5px 0;
+}
